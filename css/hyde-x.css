@@ -26,7 +26,7 @@
     margin: 0 -1000%;
 }
 .fade {
-	color: rgba(255, 255, 255, 0.31);
+	color: rgba(255, 255, 255, 0.15);
 	text-align: center; !important
 	margin: 0 auto; !important
 	
@@ -45,11 +45,22 @@
 @media (min-width: 48em) {
 .footer {
 	position: absolute;
-	bottom: 1rem;
 	left: 1rem;
 	right: 1rem;
 }
+.sidebar-sticky {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -200px; 
+}
+.sidebar-sticky:after {
+  content: "";
+  display: block;
+}
+.footer, .sidebar-sticky:after {
+  height: 200px; 
+}
 }
 .footer {
-	font-size: 12px;
+	font-size: 12px; !important
 }
