@@ -1,0 +1,55 @@
+/*
+ * Additional CSS for Hyde-X
+ */
+
+.posts {
+  list-style: none;
+}
+/* Non-selectable decorative text*/
+.grey {
+	display: block;
+	text-overflow: clip; !important
+	margin: 0 auto; !important
+	width: 200px; !important
+	white-space: nowrap; !important
+	overflow: hidden; !important
+	font-size: 20px;
+	-webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+	font-family: 'Droid Sans Mono', monospace; !important
+}
+ .grey > div {
+    margin: 0 -1000%;
+}
+.fade {
+	color: rgba(255, 255, 255, 0.31);
+	text-align: center; !important
+	margin: 0 auto; !important
+	
+	
+}
+.clear {
+	color: rgba(255, 255, 255, 1);
+}
+.sidebar {
+	text-align: center;
+}
+.sidebar-about {
+	bottom: auto;
+}
+/* Do the same thing as sidebar-sticky, just reverse*/
+@media (min-width: 48em) {
+.footer {
+	position: absolute;
+	bottom: 1rem;
+	left: 1rem;
+	right: 1rem;
+}
+}
+.footer {
+	font-size: 12px;
+}
