@@ -45,3 +45,13 @@
 .sidebar-about {
 	bottom: auto;
 }
+#logo, 
+#tittls{
+	margin: 0 auto;
+	border: solid 1 px rgba(255,255,255,0.3);
+}
+#logo:hover,
+#tittle:hover {
+	opacity: 0.9;
+	text-decoration: none;
+}

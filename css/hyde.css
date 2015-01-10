@@ -106,9 +106,9 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .sidebar-sticky {
     position: absolute;
-    right:  1rem;
-    top:  3rem;
-    left: 1rem;
+    right:  0.4rem;
+    top:  1.5rem;
+    left: 0.4rem;
   }
 }
 
@@ -204,11 +204,11 @@ a.sidebar-nav-item:focus {
 
 /* Green */
 .theme-base-0b .sidebar {
-  background-color: #90a959;
+  background-color: #8cb55b;
 }
 .theme-base-0b .content a,
 .theme-base-0b .related-posts li a:hover {
-  color: #90a959;
+  color: #8cb55b;
 }
 
 /* Cyan */
