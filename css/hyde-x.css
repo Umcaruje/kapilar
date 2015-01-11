@@ -3,41 +3,42 @@
  */
 
 .posts {
-  list-style: none;
+	list-style: none;
 }
 /* Non-selectable decorative text*/
+
 .grey {
 	display: block;
-	text-overflow: clip; 
-	margin: 0 auto; 
-	width: 100%; 
-	white-space: nowrap; 
-	overflow: hidden; 
+	text-overflow: clip;
+	margin: 0 auto;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 	font-size: 18px;
 	-webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 	font-family: 'Droid Sans Mono', monospace;
 }
- .grey > div {
-    margin: 0 -1000%;
+.grey > div {
+	margin: 0 -1000%;
 }
 .fade {
 	color: rgba(255, 255, 255, 0.15);
-	text-align: center; !important
-	margin: 0 auto; !important
+	text-align: center;
+	margin: 0 auto;
 }
 .clear {
 	color: rgba(255, 255, 255, 1);
 }
 .footer {
 	font-size: 12px;
-	text-align: right; 
+	text-align: right;
 	height: auto;
-	border-top: solid 1px rgba(255,255,255,0.2);
+	border-top: solid 1px rgba(255, 255, 255, 0.2);
 }
 .sidebar {
 	text-align: center;
@@ -45,13 +46,77 @@
 .sidebar-about {
 	bottom: auto;
 }
-#logo, 
-#tittls{
-	margin: 0 auto;
-	border: solid 1 px rgba(255,255,255,0.3);
+#logo {
+	font-size: 10rem;
+	line-height: 0.5;
+	max-width: 100%;
 }
-#logo:hover,
-#tittle:hover {
-	opacity: 0.9;
+.sidebar-about:hover {
+	opacity: 1;
+}
+.sidebar-about {
+	opacity: 0.7;
+	transition: opacity 1s;
+}
+.sidebar-about a:hover {
 	text-decoration: none;
+}
+.tagline {
+	opacity: 1;
+}
+/*Fancy links*/
+
+a {
+	position: relative;
+	text-decoration: none;
+}
+.sidebar a {
+	color: #fff;
+}
+.content a {
+	color: #8cb55b;
+}
+.sidebar p > a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.content a:hover {
+	color: #8cb55b;
+	text-decoration: none;
+}
+.sidebar a:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	transform-origin: left;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+.content a:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #8cb55b;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	transform-origin: left;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+.sidebar p > a:hover:before,
+.content a:hover:before {
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
 }
