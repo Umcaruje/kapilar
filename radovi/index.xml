@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Radovis on Kapilar </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://umcaruje.github.io/kapilar/radovi/index.xml/</link>
+    <language>en-us</language>
+    <author>Kapilar</author>
+    
+    <updated>Fri, 09 Jan 2015 22:33:43 CET</updated>
+    
+    <item>
+      <title>haha</title>
+      <link>http://umcaruje.github.io/kapilar/radovi/haha/</link>
+      <pubDate>Fri, 09 Jan 2015 22:33:43 CET</pubDate>
+      <author>Kapilar</author>
+      <guid>http://umcaruje.github.io/kapilar/radovi/haha/</guid>
+      <description>&lt;p&gt;####uhsouahsd
+asddsa
+asd
+asd
+sad&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
