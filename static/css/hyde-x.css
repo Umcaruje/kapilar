@@ -1,6 +1,14 @@
 /*
  * Additional CSS for Hyde-X
  */
+/* Main color */
+.theme-base-green .sidebar {
+  background-color: #246928;
+}
+.theme-base-green .content a,
+.theme-base-green .related-posts li a:hover {
+  color: #246928;
+}
 
 .posts {
 	list-style: none;
@@ -48,14 +56,14 @@
 }
 /* logo */
 #logo {
-	font-size: 150px;
+	font-size: 160px;
 	line-height: normal;
-	transition: font-size 0.4s ease-in-out 0s;
+	transition: all 0.2s linear 0s;
 	max-height: 150px;
 	text-overflow: ellipsis;
 }
 .sidebar-about:hover #logo {
-	font-size: 160px;
+	transform: scale(1.07,1.07)
 }
 .tagline {
 	opacity: 1;
@@ -70,14 +78,14 @@ a {
 	color: #fff;
 }
 .content a {
-	color: #8cb55b;
+	color: #246928;
 }
 a:hover {
 	color: #fff;
 	text-decoration: none;
 }
 .content a:hover {
-	color: #8cb55b;
+	color: #246928;
 	text-decoration: none;
 }
 .sidebar p > a:before {
@@ -102,7 +110,7 @@ a:hover {
 	height: 2px;
 	bottom: 0;
 	left: 0;
-	background-color: #8cb55b;
+	background-color: #246928;
 	visibility: hidden;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
@@ -122,7 +130,7 @@ a:hover {
 .social-icon {
 	display: block;
 	color: #fff;
-	font-size: 35px;
+	font-size: 34px;
 	line-height: inherit;
   text-align: center;
 	
@@ -139,15 +147,15 @@ a:hover {
 }
 .social li{
 	display: inline-block;
-	width: 48px;
-	height: 48px;
+	width: 46px;
+	height: 46px;
 	padding: 1px;
-	border-radius: 5px;
+	border-radius: 6px;
 	text-align: center;
 	vertical-align: middle;
 	text-overflow: ellipsis;
 	color: #fff;
-	transition: all 0.4s ease-in-out 0s;
+	transition: all 0.18s ease-in-out 0s;
 }
 .social li:hover {
 	/*box-shadow: inset 2px 2px 0px 0px #fff, inset -2px -2px 0px 0px rgba(255,255,255,0.7);*/
@@ -156,7 +164,7 @@ a:hover {
 }
 #facebook, #linkedin, #twitter, #googleplus {
 	color: #fff;
-	transition: all 0.4s ease-in-out 0s;
+	transition: all 0.26s ease-in-out 0s;
 }
 .social li:hover #facebook {
 	color: #3b5998;
