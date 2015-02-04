@@ -6,8 +6,6 @@ echo "Enter commit message: "
 
 read input_variable
 
-git add .
-
 git commit -a -m "$input_variable"
 
 git push origin master
