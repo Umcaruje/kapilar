@@ -1,0 +1,47 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="{{ .Site.BaseUrl }}/">
+			<div id="logo" class="icon-logo"></div><br>
+				<h1>{{ .Site.Author.name }}</h1>
+     </a>
+		</div>
+    <div class="sidebar-about tagline">
+      {{ with .Site.Params.tagline }}<p class="lead">{{ . }}</p>{{ end }}
+    </div>
+
+    <ul class="sidebar-nav">
+			<li><div class="grey"><div><p class="fade"><a class="clear" href="{{ .Site.BaseUrl }}/">Blog</a></p></div></div></li>
+      {{ range .Site.Menus.main }}
+      <li><div class="grey"><div><p class="fade"><a class="clear" href="{{ .Url }}">{{ .Name }}</a></p></div></div></li>
+      {{end}}
+    </ul>
+		<div class="container">
+    <ul class="social">
+     {{ with .Site.Params.github }}<li>
+      <i class="social-icon">
+      	<a href="{{ . }}">GitHub</a></i>
+			</li>{{ end }}
+     {{ with .Site.Params.linkedin }}<li>
+     <a href="{{ . }}">
+			 <i id="linkedin" class="social-icon icon-linkedin"></i></a>
+			</li>{{ end }}
+     {{ with .Site.Params.googleplus }}<li>
+      <a href="{{ . }}">
+			<i id="googleplus" class="social-icon icon-google-plus"></i></a>
+		 </li>{{ end }}
+     {{ with .Site.Params.facebook }}<li>
+      <a href="{{ . }}">
+			<i id="facebook" class="social-icon icon-facebook"></i></a>
+			</li>{{ end }}
+     {{ with .Site.Params.twitter }}<li>
+      <a href="{{ . }}">
+			<i id="twitter" class="social-icon icon-twitter"></i></a>
+			</li>{{ end }}
+    </ul>
+		</div>
+    <div class="footer"><p>Copyright &copy; {{ .Now.Format "2006" }} <a href="{{ .Site.BaseUrl }}/license">Kapilar</a><br>
+			Powered by <a href="http://hugo.spf13.com">Hugo</a> and <a href="https://github.com/zyro/hyde-x">Hyde-X</a></p>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>{{ .Title }} &middot; {{ .Site.Author.name }}</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/poole.css">
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/hyde.css">
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/poole-overrides.css">
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/hyde-overrides.css">
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/hyde-x.css">
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/fontastic.css">
+  <script src="{{ .Site.BaseUrl }}/prefixfree.min.js"></script>
+  {{ if isset .Site.Params "highlight" }}<link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/highlight/{{ .Site.Params.highlight }}.css">{{ end }}
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="{{ .Site.BaseUrl }}/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="{{ .Site.BaseUrl }}/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ .Site.BaseUrl }}/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ .Site.BaseUrl }}/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ .Site.BaseUrl }}/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ .Site.BaseUrl }}/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ .Site.BaseUrl }}/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ .Site.BaseUrl }}/favicon/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseUrl }}/favicon/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="{{ .Site.BaseUrl }}/favicon/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ .Site.BaseUrl }}/favicon/favicon-194x194.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="{{ .Site.BaseUrl }}/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="{{ .Site.BaseUrl }}/favicon/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="{{ .Site.BaseUrl }}/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="{{ .Site.BaseUrl }}/favicon/android-chrome-manifest.json">
+  <link rel="shortcut icon" href="{{ .Site.BaseUrl }}/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#603cba">
+  <meta name="msapplication-TileImage" content="{{ .Site.BaseUrl }}/favicon/mstile-144x144.png">
+  <meta name="msapplication-config" content="{{ .Site.BaseUrl }}/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- RSS -->
+  <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} &middot; {{ .Site.Author.name }}" />
+
+  <meta name="description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.defaultDescription }}{{ end }}">
+  <meta name="keywords" content="{{ range $index, $element := .Keywords }}{{ if gt $index 0 }},{{ end }}{{ . }}{{ else }}{{ .Site.Params.defaultKeywords }}{{ end }}">
+  {{ with .Site.Params.googleAuthorship }}<link rel="author" href="http://plus.google.com/{{ . }}">{{ end }}
+</head>
+<body{{ with .Site.Params.theme }} class="{{ . }}"{{ end }}>
+{{ template "partials/sidebar.html" . }}

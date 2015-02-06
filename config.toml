@@ -6,7 +6,6 @@
 	languageCode = "en-us"
 	canonifyurls = true
 	title = "Kapilar"
-	theme = "hyde-x"
 	MetaDataFormat = "toml"
 
 [indexes]
