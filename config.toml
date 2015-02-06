@@ -33,7 +33,7 @@
     theme = "theme-base-green"
 
     # Select a syntax highight.
-    # Check the static/css/highlight directory for options.
+    # Check the static/css/highlight directory for options. 
     highlight = "sunburst"
 
     # Displays under the author name in the sidebar, keep it short.
@@ -47,7 +47,7 @@
     # Sidebar social links, avoid enabling too many of these if possible.
     # These should be full URLs.
     github = ""
-    linkedin = "sadffd"
-    googleplus = "jldsakjsda"
-    facebook = "dfdsfsdfaasdf"
-    twitter = "sadffds"
+    linkedin = "http://rs.linkedin.com/in/kapilar"
+    googleplus = "https://plus.google.com/112475221546781032857/posts"
+    facebook = "https://www.facebook.com/zagorka.stevic.gojkov"
+    twitter = ""

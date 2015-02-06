@@ -1,6 +1,9 @@
 /* Simple Random Text generator */
 
-// Array with text
+/* 
+ * Array with text 
+ * Thanks a lot to @grejppi for this nice function
+ */
 function fillerText (length, end) {
     var words  = ['odrzivirazvoj', 'napredak', 'ekologija', 'samoodgovornost', 'prakticno', 'primenljivo'],
         s      = '';
@@ -12,16 +15,12 @@ function fillerText (length, end) {
     return end ? s.substr (s.length - length, length) : s.substr (0, length);
 }
 
-// Random number (Thanks mozzila)
-function getRandomInt(min, max) {
-	return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+// Generate some text
 
-$(document).ready(function () {
-	$('.clear').before(function () {
-		$(this).before(fillerText(40, true))
-	});
-	$('.clear').after(function () {
-		$(this).after(fillerText(40, false))
-	});
+document.addEventListener('DOMContentLoaded', function () {
+	var fade = document.querySelectorAll('.fade');
+	for (var i = 0; i < fade.length; ++i) {
+  		var curr = fade[i].innerHTML;
+		fade[i].innerHTML = fillerText(40, true) + curr + fillerText(40, false);
+	}
 });
