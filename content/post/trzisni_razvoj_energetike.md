@@ -1,6 +1,6 @@
 +++
 Categories = []
-Description = "Cela konferencija, kao i usvojena Strategija razvoja energetike bajkovito, idilično oživljavaju efekte 'slobodnog' tržišta dok istovremeno, što je i zbunjujuće, zapostavljaju 'cost-benefit' analizu sa nacionalnog aspekta. Da li bi ijedan strani investitor ulagao na bilo koje tržište bez takve analize."
+Description = "Cela konferencija, kao i usvojena Strategija razvoja energetike bajkovito, idilično oživljavaju efekte 'slobodnog' tržišta dok istovremeno, što je i zbunjujuće, zapostavljaju 'cost-benefit' analizu sa nacionalnog aspekta. Da li bi ijedan strani investitor ulagao na bilo koje tržište bez takve analize?"
 Keywords = []
 Tags = []
 date = "2015-04-04T18:41:47+02:00"
