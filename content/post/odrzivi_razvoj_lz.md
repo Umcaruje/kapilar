@@ -1,6 +1,6 @@
 +++
 Categories = []
-Description = "Dobar dan"
+Description = "Koncept održivi razvoj jeste alat pomoću koga se javnim politikama (strategijama razvoja) i zakonima kontroliše smer dejstva tržišta."
 Keywords = []
 Tags = []
 date = "2015-04-04T16:13:20+02:00"
