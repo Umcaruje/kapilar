@@ -2,7 +2,7 @@
 	layoutdir = "layouts"
 	publishdir = "public"
 	builddrafts = false
-	baseurl = "http://umcaruje.github.io/kapilar"
+	baseurl = "http://kapilar.rs"
 	languageCode = "en-us"
 	canonifyurls = true
 	title = "Kapilar"
