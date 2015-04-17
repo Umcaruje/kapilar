@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Recent Content on Kapilar </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://umcaruje.github.io/kapilar/index.xml/</link>
+    <title>Kapilar</title>
+    <link>http://umcaruje.github.io/kapilar/</link>
+    <description>Recent content on Kapilar</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Kapilar</author>
-    
-    <updated>Sat, 04 Apr 2015 19:24:02 CEST</updated>
+    <lastBuildDate>Sat, 04 Apr 2015 19:24:02 +0200</lastBuildDate>
+    <atom:link href="http://umcaruje.github.io/kapilar/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Održivi razvoj - dobar izbor za opstanak lokalne zajednice</title>
       <link>http://umcaruje.github.io/kapilar/post/odrzivi_razvoj/</link>
-      <pubDate>Sat, 04 Apr 2015 19:24:02 CEST</pubDate>
-      <author>Kapilar</author>
+      <pubDate>Sat, 04 Apr 2015 19:24:02 +0200</pubDate>
+      
       <guid>http://umcaruje.github.io/kapilar/post/odrzivi_razvoj/</guid>
       <description>&lt;p&gt;Nesumnjivo je da ovaj pojam potiče još iz latinskog jezika, sustineo, sustenuto, i ima značenje održati se, odolevati, trajati. Novo značenje je stekao u kontekstu današnjeg zvaničnog razumevanja razvoja društva, kao razvoj kojim se zadovoljavaju bazične ljudske potrebe i razumni standardi blagostanja, bez iscrpljivanja mogućnosti za ostvarenjem sličnog ili boljeg životnog standarda budućih generacija (Carter, 2001, prema Pavlović, 2011).&lt;/p&gt;
 
@@ -38,8 +38,8 @@ primenjivih. Umesto da ga upotrebimo i iskoristimo njegovu avangardnu ulogu u gl
     <item>
       <title>Održivi razvoj energetike Srbije ≠ Tržišni razvoj energetike Srbije</title>
       <link>http://umcaruje.github.io/kapilar/post/trzisni_razvoj_energetike/</link>
-      <pubDate>Sat, 04 Apr 2015 18:41:47 CEST</pubDate>
-      <author>Kapilar</author>
+      <pubDate>Sat, 04 Apr 2015 18:41:47 +0200</pubDate>
+      
       <guid>http://umcaruje.github.io/kapilar/post/trzisni_razvoj_energetike/</guid>
       <description>&lt;p&gt;Razvoj energetike u Srbiji narednim godinama biće pod uticajem standarda i pravila tržišta evropske energetske zajednice koji su prihvaćeni i usvojeni Strategijom razvoja energetike Republike Srbije do 2025 sa projekcijama do 2030. godine. To je i bila poruka druge konferencije &amp;ldquo;Održivi razvoj energetike u jugoistočnoj Evropi&amp;rdquo; održane 20. februara u Beogradu pod pokroviteljstvom Centralne evropske inicijative a sponzorisane od strane Elektoprivrede Srbije. Centralna ideja konferencije ticala se prihvatanja uloge i funkcije tržišnog razvoja energetike, ali sa već unapred određenim i nametnutim pravilima evropskog energetskog tržišta.
 Uglavnom su se mogle čuti samo reči hvale o korisnosti deregulacije odnosno &amp;ldquo;otvaranja&amp;rdquo; nacionalnih energetskih tržišta. Otuda, u budućnosti energetski sistemi na ovim prostorima ostvarivaće veću energetsku bezbednost, sigurnost i efikasnost a to će voditi konkurentnijoj privredi, većem životnom standardu, većoj zaštiti životne sredine i smanjenju antropogenog efekta u procesu klimatskih promena. Naravno da će prvi efekat &amp;ldquo;slobodnog&amp;rdquo; tržišta zbrisati sve one koji nisu konkurentni evropskim tržišnim uslovima, ali to je cena ulaznice napretka koja se ne dovodi u sumnju, jer tržišni razvoj po definiciji vodi ekonomskom razvoju koji omogućuje privredni procvat.
@@ -56,8 +56,8 @@ Prvi princip Nacionalne strategije održivog razvoja jeste smanjenje siromaštva
     <item>
       <title>O meni</title>
       <link>http://umcaruje.github.io/kapilar/O_meni/</link>
-      <pubDate>Sat, 04 Apr 2015 16:37:09 CEST</pubDate>
-      <author>Kapilar</author>
+      <pubDate>Sat, 04 Apr 2015 16:37:09 +0200</pubDate>
+      
       <guid>http://umcaruje.github.io/kapilar/O_meni/</guid>
       <description>&lt;p&gt;ZSHGSHSHHS&lt;/p&gt;
 </description>
@@ -66,8 +66,8 @@ Prvi princip Nacionalne strategije održivog razvoja jeste smanjenje siromaštva
     <item>
       <title>Upotrebljivost koncepta održivi razvoj u lokalnoj zajednici</title>
       <link>http://umcaruje.github.io/kapilar/post/odrzivi_razvoj_lz/</link>
-      <pubDate>Sat, 04 Apr 2015 16:13:20 CEST</pubDate>
-      <author>Kapilar</author>
+      <pubDate>Sat, 04 Apr 2015 16:13:20 +0200</pubDate>
+      
       <guid>http://umcaruje.github.io/kapilar/post/odrzivi_razvoj_lz/</guid>
       <description>&lt;p&gt;Naučni skup &amp;ldquo;Mineralni resursi nikla u Srbiji i uticaj na životnu sredinu&amp;rdquo; koji je održan 6. novembra u SANU pokazao je da u Srbiji postoji naučno jezgro  koje je dovoljno stručno i spremno da argumentovano pristupi sveobuhvatnoj analizi društvenih tereta i koristi koji bi nastali eksploatacijom mineralnih resursa nikla u Srbiji. Okupljeni naučni tim prikazao je otvorenost ka sagledavanju svih trenutnih komparativnih prednosti neeksploatacije nikla i zadržavanja trenutnog stanja predela, kao i potrebe za daljim naučnim istraživanjem primenljivim na naš politički sistem.&lt;/p&gt;
 
