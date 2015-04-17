@@ -37,7 +37,7 @@
     highlight = "sunburst"
 
     # Displays under the author name in the sidebar, keep it short.
-    tagline = "Your favourite quote or soundbite."
+    tagline = "Differences can be seen."
 
     # Metadata used to drive integrations.
     #googleAuthorship = "Your Google+ profile ID"
